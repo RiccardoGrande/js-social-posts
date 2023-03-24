@@ -69,10 +69,10 @@ for (let i = 0; i < posts.length; i++) {
         <div class="post__header">
                 <div class="post-meta">                    
                     <div class="post-meta__icon">
-                        <img class="profile-pic" src="${thisPost.media}" alt="Phil Mangione">                    
+                        <img class="profile-pic" src="${thisPost.media}" alt="picture_profile_post">                    
                     </div>
                     <div class="post-meta__data">
-                        <div class="post-meta__author">Phil Mangione</div>
+                        <div class="post-meta__author">${thisPost.author.name}</div>
                         <div class="post-meta__time">4 mesi fa</div>
                     </div>                    
                 </div>
@@ -80,7 +80,7 @@ for (let i = 0; i < posts.length; i++) {
         <div class="post__text">Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.
         </div>
             <div class="post__image">
-                <img src="${thisPost.image}" alt="">
+                <img src="${thisPost.author.image}" alt="">
             </div>
             <div class="post__footer">
                 <div class="likes js-likes">
