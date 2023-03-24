@@ -63,7 +63,7 @@ for (let i = 0; i < posts.length; i++) {
     const thisPost = posts[i];
     console.log(thisPost);
     //Organizzare i singoli membri in card/schede
-    //Trasformare la stringa foto in una immagine effettiva
+    
     const markup = `
 
         <div class="post__header">
